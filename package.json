@@ -1,0 +1,28 @@
+{
+  "name": "shoppers-bag",
+  "version": "1.0.0",
+  "description": "A growth engine for plastic reduction, reuse and recycling",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start run",
+    "dev": "npx tailwindcss -i ./assets/css/main.css -o ./assets/css/tailwind.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Issiedoesit/shoppers-bag.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Issiedoesit/shoppers-bag/issues"
+  },
+  "homepage": "https://github.com/Issiedoesit/shoppers-bag#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.19",
+    "tailwindcss": "^3.2.4"
+  },
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}

@@ -8,54 +8,66 @@
     <link rel="stylesheet" href="./assets/css/fonts.css">
     <title>Shoppers Bag | Home</title>
 </head>
-<body class="box-border pb-40">
-<header>
-    <nav class="flex flex-row items-center justify-between px-32 py-10">
-        <div>
-            <img src="./assets/images/logos/logo.png" alt="logo" class="w-254 h-11">
+<body class="box-border bg-white overflow-x-hidden">
+<header class="">
+    <nav class="relative w-full flex flex-row items-center h-24 lg:h-auto justify-between px-10 sm:px-16 lg:px-32 py-10">
+        <div class="h-fit w-thirtyPercent">
+            <a href="./index.html"><img src="./assets/images/logos/logo.png" alt="logo" class="w-40 h-auto lg:w-48"></a>
         </div>
-        <div class="font-avenirRegular flex flex-row items-center gap-10">
-            <a href="#">About us</a>
-            <a href="#">FAQ</a>
-            <a href="#">Impact</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact Us</a>
+        <div id="nav_menu" class="lg:bg-transparent space-y-10 lg:space-y-0 z-50 py-20 lg:py-0 -right-hundredPercent transition-all duration-500 ease-in-out shadow-md lg:shadow-none lg:static -bottom-560 absolute hidden w-full flex-col lg:flex lg:flex-row gap-10 lg:gap-7 xl:gap-10 justify-between items-center lg:w-seventyPercent">
+            <div class="font-avenirRegular flex flex-col lg:flex-row items-center gap-10 lg:gap-5 xl:gap-10">
+                <a href="./about-us.html" class="whitespace-nowrap">About us</a>
+                <a href="./faq.html" class="whitespace-nowrap">FAQ</a>
+                <a href="./impact.html" class="whitespace-nowrap">Impact</a>
+                <a href="./blog.html" class="whitespace-nowrap">Blog</a>
+                <a href="./contact-us.html" class="whitespace-nowrap">Contact Us</a>
+            </div>
+            <div class="flex w-full lg:w-fit justify-center flex-col lg:flex-row items-center gap-7 font-avenirHeavy ">
+                <a href="#" class="whitespace-nowrap text-brandRed1x underline">Log In</a>
+                <a href="#" class="whitespace-nowrap bg-brandDarkGreen2x py-3 px-5 rounded-forty text-white text-center">Join as a business</a>
+            </div>
         </div>
-        <div class="flex flex-row items-center gap-7 font-avenirHeavy ">
-            <a href="#" class="text-brandRed1x underline">Log In</a>
-            <a href="#" class="bg-brandDarkGreen2x py-3 px-5 rounded-forty text-white text-center">Join as a business</a>
+        <div id="hamburger" class="md:block lg:hidden space-y-1">
+            <div class="h-0.75 w-8 rounded-ten bg-brandDarkGreen1x"></div>
+            <div class="h-0.75 w-6 rounded-ten bg-brandDarkGreen1x"></div>
         </div>
     </nav>
 </header>
 <main>
-    <section class="px-20 mb-40 h-fit relative">
-        <main class="relative rounded-hundred bg-brandDarkGreen1x px-24 pt-32 lg:py-36 h-fit flex flex-col gap-6">
+    <section class="px-10 md:px-20 mb-40 h-fit relative">
+        <main class="relative rounded-hundred bg-brandDarkGreen1x px-10 lg:px-24 pt-32 lg:py-32  h-fit flex flex-col gap-6">
             <div class="space-y-6">
-                <h1 class="font-milligramBold700 text-white text-5xl">Say yes to a <span class="text-brandGreen1x underline">reusable</span></h1>
-                <p class="font-milligramRegular400 text-white">shopping bags, enabled with digital technology</p>
-                <div class="pt-10 flex flex-row items-center gap-10">
-                    <a href="#" class="font-avenirLight text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
-                    <a href="#" class="text-white font-moderat font-normal underline">Contact sales</a>
+                <div class="text-4xl sm:text-5xl md:text-7xl container font-milligramBold700 space-y-2">
+                    <span class="text-white static first">Say yes to a <br/></span>
+                    <span class="text-brandGreen1x underline" id="change_text">reusable</span>
+                </div>
+                <p class="font-milligramRegular400 text-white  text-xl md:text-3xl lg:w-sixtyPercent">shopping bags, enabled with digital technology</p>
+                <div class="pt-10 flex flex-col md:flex-row items-center gap-10">
+                    <a href="#" class="font-avenirLight text-lg text-white bg-brandBlue1x rounded-sixty py-4 px-7">Show me how</a>
+                    <a href="#" class="text-white text-lg font-moderat font-normal underline">Contact sales</a>
                 </div>
             </div>
-            <img src="./assets/images/hero-eco-girl.png" alt="hero eco girl" class="lg:absolute w-618 bottom-10 right-8">
+            <img src="./assets/images/hero-eco-girl.png" alt="hero eco girl" class="lg:absolute w-auto md:w-618 bottom-10 right-8">
         </main>
-        <div class="absolute -bottom-60 right-36 h-fit w-fit flex flex-col">
-            <div class="px-6 shadow-lg py-9 bg-brandPeach1x rounded-fifty w-410 space-y-4">
-                <div class="relative h-fit w-fit px-5 py-2 mx-auto">
-                    <h1 class="font-milligramBold700 text-3xl text-center">Our Mission</h1>
-                    <img src="./assets/images/patterns/sun-rays.png" alt="sun-rays" class="w-6 h-6 absolute right-0 top-0">
+          <div class="absolute -bottom-60 sm:-bottom-40 md:-bottom-60 right-10 md:right-36 ">
+            <div class="relative h-fit w-fit flex flex-col">
+                <div class="relative z-30 px-6 shadow-lg py-9 bg-brandPeach1x  rounded-fifty w-60 sm:w-350 md:w-410 space-y-4">
+                    <div class="relative h-fit w-fit px-5 py-2 mx-auto">
+                        <h1 class="font-milligramBold700 text-xl md:text-3xl text-center">Our Mission</h1>
+                        <img loading="lazy" src="./assets/images/patterns/sun-rays.png" alt="sun-rays" class="w-6 h-6 absolute right-0 top-0">
+                    </div>
+                    <p class="font-milligramLight300 text-brandGray1x text-sm md:text-xl">At ShoppersBag, we are on a mission to support shoppers maintain a sustainable shopping lifestyle, reduce the number of single-use plastic bags in circulation, and improve the livelihood of women and girls.</p>
                 </div>
-                <p class="font-milligramLight300 text-brandGray1x text-xl">At ShoppersBag, we are on a mission to support shoppers maintain a sustainable shopping lifestyle, reduce the number of single-use plastic bags in circulation, and improve the livelihood of women and girls.</p>
+                <div class="absolute w-full bg-brandYellow4x h-full rounded-fifty -left-3 -bottom-3"></div>
             </div>
+          </div>
             <!-- <div class="min-h-full min-w-full bg-red-500">
                 <p>hi</p>
             </div> -->
-        </div>
     </section>
-    <section class="pt-40 pl-32 space-y-32 pb-8">
-        <section class="flex flex-row items-start gap-5">
-            <div class="w-twentyFivePercent space-y-4">
+    <section class="pt-40 overflow-x-hidden h-fit px-10 md:px-20 space-y-32 pb-8 flex flex-col justify-center">
+        <section class="relative py-5 h-fit flex flex-row flex-wrap items-start gap-10 lg:gap-5">
+            <div class="w-2/3 lg:w-twentyFivePercent space-y-4">
                 <h1 class="font-moderat font-bold text-4xl text-brandDarkGreen2x">353 million</h1>
                 <p class="font-moderat font-normal text-brandGray2x text-xl">tonnes of waste generated globally are plastics</p>
                 <div class="font-moderat font-normal flex flex-row items-center gap-2">
@@ -66,7 +78,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="w-twentyFivePercent space-y-4">
+            <div class="w-2/3 lg:w-twentyFivePercent space-y-4">
                 <h1 class="font-moderat font-bold text-4xl text-brandDarkGreen2x">32 million</h1>
                 <p class="font-moderat font-normal text-brandGray2x text-xl">tonnes of plastic waste generated in Nigeria can be reused</p>
                 <div class="font-moderat font-normal flex flex-row items-center gap-2">
@@ -77,7 +89,7 @@
                     </svg>
                 </div>
             </div>
-            <div class="w-twentyFivePercent space-y-4">
+            <div class="w-2/3 lg:w-twentyFivePercent space-y-4">
                 <h1 class="font-moderat font-bold text-4xl text-brandDarkGreen2x">100,000</h1>
                 <p class="font-moderat font-normal text-brandGray2x text-xl">
                     shoppers using ShoppersBag App monthly can save 13 tonnes of single-use plastic from entering the planet
@@ -90,58 +102,67 @@
                     </svg>
                 </div>        
             </div>
+            <div class="sm:absolute -right-28 md:-right-36 top-10">
+                <div class="flex flex-row items-center justify-center gap-3 w-80 aspect-square rounded-fiftyPercent border border-brandGray26x">
+                    <p class="font-avenirRegular text-brandPurple1x text-lg">Watch video</p>
+                    <button type="button">                
+                        <img src="./assets/images/icons/vuesax/play-cricle.svg" alt="play video">
+                    </button>
+                </div>
+            </div>
         </section>
         <section class="mx-auto w-full space-y-8">
-            <img src="./assets/images/icons/FactBG.010f11141.png" alt="fact" class="w-60px h-60px mx-auto">
+            <img loading="lazy" src="./assets/images/icons/FactBG.010f11141.png" alt="fact" class="w-60px h-60px mx-auto">
             <p class="text-center text-brandGreen1x font-avenirRegular text-2xl max-w-md mx-auto">Trusted by brands and eco-friendly shopping bag producers serving 100,000+ shoppers</p>
         </section>
     </section>
     <section class="bg-brandGray3x py-40 px-tenPercent">
-     <div class="flex flex-row items-center w-full gap-10">
-        <div class="w-twentyFivePercent">
-            <img src="./assets/images/eko-carbon.png" alt="eko-carbon">
+     <div class="flex flex-wrap md:grid grid-cols-4 flex-row justify-center items-center w-full gap-10">
+        <div class="col-span-1 w-eightyPercent">
+            <img loading="lazy" src="./assets/images/eko-carbon.png" alt="eko-carbon">
         </div>
-        <div class="w-twentyFivePercent">
-            <img src="./assets/images/challenge-work.png" alt="challenge-work">
+        <div class="col-span-1 w-eightyPercent">
+            <img loading="lazy" src="./assets/images/challenge-work.png" alt="challenge-work">
         </div>
-        <div class="w-twentyFivePercent">
-            <img src="./assets/images/propak.png" alt="propak">
+        <div class="col-span-1 w-eightyPercent">
+            <img loading="lazy" src="./assets/images/propak.png" alt="propak">
         </div>
-        <div class="w-twentyFivePercent">
-            <img src="./assets/images/gov-ak.png" alt="gov-ak" class="max-w-171px">
+        <div class="col-span-1 w-eightyPercent">
+            <img loading="lazy" src="./assets/images/gov-ak.png" alt="gov-ak" class="max-w-160px mx-auto">
         </div>
      </div>
     </section>
-    <section class="py-20 px-20 flex flex-col gap-10 items-center box-border h-fit ">
-        <div class="font-avenirHeavy space-y-tenPixel text-black text-center">
+    <section class="py-20 px-10 md:px-20 flex flex-col gap-10 items-center box-border h-fit ">
+        <div class="font-avenirHeavy space-y-4 text-black text-center">
             <h1 class="text-4xl">How ShoppersBag Works</h1>
-            <h3 class="text-2xl">For shoppers</h3>
+            <h3 class="text-2xl" id="how_header">For shoppers</h3>
+            <h3 class="text-base font-avenirLight text-brandGray2x max-w-xs md:max-w-xl" id="how_text">Use ShoppersBag to shop, earn and save the planet</h3>
         </div>
-        <section class="w-full px-20">
-            <div class="w-ninetyPercent mx-auto flex flex-row pt-24 font-avenirHeavy text-black">
-                <button data-what-section="for_shoppers" class="how-tab tab-toggle-btn w-twentyFivePercent border-b-4 border-brandBlue2x pb-3" type="button">For shoppers</button>
-                <button data-what-section="for_malls_and_stores" class="how-tab tab-toggle-btn w-twentyFivePercent border-b-4 border-brandGray4x pb-3" type="button">For malls and stores</button>
-                <button data-what-section="for_eco_friendly" class="how-tab tab-toggle-btn w-twentyFivePercent border-b-4 border-brandGray4x pb-3" type="button">For Eco-friendly Bag Producers</button>
-                <button data-what-section="for_brands" class="how-tab tab-toggle-btn w-twentyFivePercent border-b-4 border-brandGray4x pb-3" type="button">For brands</button>
+        <section class="w-full md:px-20">
+            <div class="w-full overflow-x-auto md:w-ninetyPercent mx-auto flex flex-row pt-24 font-avenirHeavy text-black">
+                <button data-what-section="for_shoppers" class="how-tab tab-toggle-btn whitespace-nowrap px-5 md:px-10 md:w-fit border-b-4 border-brandBlue2x pb-3" type="button">For shoppers</button>
+                <button data-what-section="for_malls_and_stores" class="how-tab tab-toggle-btn whitespace-nowrap px-5 md:px-10 md:w-fit border-b-4 border-brandGray4x pb-3" type="button">For malls and stores</button>
+                <button data-what-section="for_eco_friendly" class="how-tab tab-toggle-btn whitespace-nowrap px-5 md:px-10 md:w-fit border-b-4 border-brandGray4x pb-3" type="button">For Eco-friendly Bag Producers</button>
+                <button data-what-section="for_brands" class="how-tab tab-toggle-btn whitespace-nowrap px-5 md:px-10 md:w-fit border-b-4 border-brandGray4x pb-3" type="button">For brands</button>
             </div>
             <main class="tab-wrap pt-20">
                 <!-- For shoppers section start -->
                 <section class="tab first:flex hidden flex-row items-center w-full gap-10" id="for_shoppers">
                     <div class="slide-text-wrap w-fiftyPercent space-y-5 font-avenirLight">
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGreen2x border border-brandGray6x rounded-twenty">Download ShoppersBag App & Register</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Connect with Eco-conscious Community in-App</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Shop and Gain Reward from Partnering Mall & Stores</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives </div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Download ShoppersBag App & Register</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Connect with Eco-conscious Community in-App</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Shop and Gain Reward from Partnering Mall & Stores</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Participate in Brand Campaigns, in-Store, & Online Task to Earn Incentives </div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Share Experience on Social Media, Get More People to Use ShopperBag and Protect Our Planet</div>
                     </div>
                     <div class="w-fiftyPercent">
-                        <div class="relative max-w-750px max-h-750 bg-brandBlue3x flex flex-col items-center justify-center rounded-fiftyPercent">
+                        <div class="relative w-full aspect-square bg-brandBlue3x flex flex-col items-center justify-center rounded-fiftyPercent">
                             <div class="slide-length hidden absolute bottom-4 right-4 flex-row item-center gap-1 bg-black/50 text-white shadow-md rounded-thirty px-2 py-1 w-fit h-fit">
                                 <p class="current-slide">1</p>
                             </div>
-                            <div class="w-500px h-500 slide-wrap flex flex-row items-start pt-10 justify-center">
+                            <div class="lg:w-500px lg:h-500 slide-wrap flex flex-row items-start pt-10 justify-center">
                                 <img class="first:block hidden slides max-h-410 w-seventyPercent" src="./assets/images/icons/shoppers/download-5621273-4673817 1.png" alt="download"/>
                                 <img class="first:block hidden slides max-h-410 w-seventyPercent" src="./assets/images/icons/shoppers/shopping-love-3025711-2526909 1.png" alt="locate"/>
                                 <img class="first:block hidden slides max-h-410 w-seventyPercent" src="./assets/images/icons/shoppers/template_uiux_icon_finance-03_4x 1.png" alt="qr code"/>
@@ -153,21 +174,21 @@
                             <div class="absolute flex flex-row items-center gap-5 left-fiftyPercent -translate-x-fiftyPercent bottom-32 z-20">
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">app store</p>
-                                    <img src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
                                 </a>
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">google play</p>
-                                    <img src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
                                 </a>
                             </div>
                             <div class="slide-btn-wrap absolute flex flex-row items-center gap-10 left-fiftyPercent -translate-x-fiftyPercent bottom-5 z-20">
                                 <button type="button" class="h-18 w-18 bg-brandPurple2x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="backward">
                                     <p class="hidden">Previous</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
                                 </button>
                                 <button type="button" class="h-18 w-18 bg-brandPurple3x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="forward">
                                     <p class="hidden">Next</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
                                 </button>
                             </div>
                         </div>
@@ -178,10 +199,10 @@
                 <!-- For malls and stores section start -->
                 <section class="tab first:flex hidden flex-row items-center w-full gap-10" id="for_malls_and_stores">
                     <div class="slide-text-wrap w-fiftyPercent space-y-5 font-avenirLight">
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGreen2x border border-brandGray6x rounded-twenty">Download ShoppersBag App & Register</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Connect with Eco-conscious Community in-App</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Download ShoppersBag App & Register</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Connect with Eco-conscious Community in-App</div>
                         </div>
                     <div class="w-fiftyPercent">
                         <div class="relative max-w-750px max-h-750 bg-brandYellow2x flex flex-col items-center justify-center rounded-fiftyPercent">
@@ -197,21 +218,21 @@
                             <div class="absolute flex flex-row items-center gap-5 left-fiftyPercent -translate-x-fiftyPercent bottom-32 z-20">
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">app store</p>
-                                    <img src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
                                 </a>
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">google play</p>
-                                    <img src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
                                 </a>
                             </div>
                             <div class="slide-btn-wrap absolute flex flex-row items-center gap-10 left-fiftyPercent -translate-x-fiftyPercent bottom-5 z-20">
                                 <button type="button" class="h-18 w-18 bg-brandPurple2x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="backward">
                                     <p class="hidden">Previous</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
                                 </button>
                                 <button type="button" class="h-18 w-18 bg-brandPurple3x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="forward">
                                     <p class="hidden">Next</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
                                 </button>
                             </div>
                         </div>
@@ -222,9 +243,9 @@
                 <!-- For Eco-friendly Bag Producers section start -->
                 <section class="tab first:flex hidden flex-row items-center w-full gap-10" id="for_eco_friendly">
                     <div class="slide-text-wrap w-fiftyPercent space-y-5 font-avenirLight">
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGreen2x border border-brandGray6x rounded-twenty">Download ShoppersBag App & Register</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Download ShoppersBag App & Register</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
                         </div>
                     <div class="w-fiftyPercent">
                         <div class="relative max-w-750px max-h-750 bg-brandGreen3x flex flex-col items-center justify-center rounded-fiftyPercent">
@@ -239,21 +260,21 @@
                             <div class="absolute flex flex-row items-center gap-5 left-fiftyPercent -translate-x-fiftyPercent bottom-32 z-20">
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">app store</p>
-                                    <img src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
                                 </a>
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">google play</p>
-                                    <img src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
                                 </a>
                             </div>
                             <div class="slide-btn-wrap absolute flex flex-row items-center gap-10 left-fiftyPercent -translate-x-fiftyPercent bottom-5 z-20">
                                 <button type="button" class="h-18 w-18 bg-brandPurple2x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="backward">
                                     <p class="hidden">Previous</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
                                 </button>
                                 <button type="button" class="h-18 w-18 bg-brandPurple3x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="forward">
                                     <p class="hidden">Next</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
                                 </button>
                             </div>
                         </div>
@@ -263,9 +284,9 @@
                 <!-- For brands section start -->
                 <section class="tab first:flex hidden flex-row items-center w-full gap-10" id="for_brands">
                     <div class="slide-text-wrap w-fiftyPercent space-y-5 font-avenirLight">
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGreen2x border border-brandGray6x rounded-twenty">Download ShoppersBag App & Register</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
-                        <div class="first:text-white text-black slide-text py-30px px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGreen2x border border-brandGray4x rounded-twenty">Download ShoppersBag App & Register</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Locate Nearby Mall, Store, and Purchase ShoppersBag</div>
+                        <div class="first:text-white text-black slide-text py-4 px-10 bg-brandGray5x border border-brandGray4x rounded-twenty">Scan QR Code to Activate ShoppersBag</div>
                     </div>
                     <div class="w-fiftyPercent">
                         <div class="relative max-w-750px max-h-750 bg-brandRed3x flex flex-col items-center justify-center rounded-fiftyPercent">
@@ -280,21 +301,21 @@
                             <div class="absolute flex flex-row items-center gap-5 left-fiftyPercent -translate-x-fiftyPercent bottom-32 z-20">
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">app store</p>
-                                    <img src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/AppStore-green.png" alt="previous" class="">
                                 </a>
                                 <a href="#" class="max-w-160px rounded-fifty flex flex-row items-center justify-center">
                                     <p class="hidden">google play</p>
-                                    <img src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
+                                    <img loading="lazy" src="./assets/images/icons/social/GooglePlay-blue.png" alt="next" class="">
                                 </a>
                             </div>
                             <div class="slide-btn-wrap absolute flex flex-row items-center gap-10 left-fiftyPercent -translate-x-fiftyPercent bottom-5 z-20">
                                 <button type="button" class="h-18 w-18 bg-brandPurple2x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="backward">
                                     <p class="hidden">Previous</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-left.svg" alt="previous" class="h-9 w-9">
                                 </button>
                                 <button type="button" class="h-18 w-18 bg-brandPurple3x rounded-fifty flex flex-row items-center justify-center slide-btn" data-slide-control="forward">
                                     <p class="hidden">Next</p>
-                                    <img src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
+                                    <img loading="lazy" src="./assets/images/icons/vuesax/arrow-right.svg" alt="next" class="h-9 w-9">
                                 </button>
                             </div>
                         </div>
@@ -303,28 +324,28 @@
                 <!-- For brands section end -->
             </main>
         </section>
-        <a href="#" class="bg-brandBlue1x rounded-sixty text-white mx-auto text-center py-7 px-20 font-avenirHeavy">Start Earning rewards from your favorite brands</a>
+        <a href="#" class="bg-brandBlue1x rounded-sixty text-white mx-auto text-sm sm:text-base text-center py-7 px-5 md:px-20 font-avenirHeavy" id="how_cta">Start Earning rewards from your favorite brands</a>
     </section>
-    <section class="relative bg-brandGray7x py-32 px-20 flex flex-row gap-10 items-start">
-        <section class="w-fortyPercent space-y-10">
-            <h1 class="text-5xl font-milligramBold700 text-brandDarkGreen2x">Why ShoppersBag?</h1>
-            <p class="font-avenirRegular text-2xl text-brandGray8x">
+    <section class="relative bg-brandGray7x py-32 px-10 lg:px-20 flex flex-col md:flex-row gap-10 items-start">
+        <section class="md:w-thirtyFivePercent lg:w-fortyPercent space-y-10">
+            <h1 class="text-center md:text-left text-3xl lg:text-5xl font-milligramBold700 text-brandDarkGreen2x">Why ShoppersBag?</h1>
+            <p class="text-center md:text-left font-avenirRegular md:text-lg lg:text-2xl text-brandGray8x">
                 ShoppersBag is an enabler of reusable and recyclable shopping bags in the retail value chain. Wherever it is adopted by eco-friendly bag producers, retail stores, brands, and shoppers, it promotes sustainability and circularity.
             </p>
         </section>
-        <section class="w-sixtyPercent flex flex-col">
-            <div class="w-full mx-auto flex flex-row  font-avenirHeavy text-black">
-                <button data-what-section="environment" class="why-tab py-6 tab-toggle-btn w-twentyFivePercent bg-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x rounded-hundred text-white" type="button">Environment</button>
-                <button data-what-section="economic" class="why-tab py-6 tab-toggle-btn w-twentyFivePercent text-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x" type="button">Economic</button>
-                <button data-what-section="social" class="why-tab py-6 tab-toggle-btn w-twentyFivePercent text-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x" type="button">Social</button>
-                <button data-what-section="tech_driven" class="why-tab py-6 tab-toggle-btn w-twentyFivePercent text-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x" type="button">Tech-driven</button>
+        <section class="w-full md:w-sixtyFivePercent lg:w-sixtyPercent flex flex-col">
+            <div class="w-full overflow-x-scroll lg:overflow-x-hidden gap-5 md:gap-0 mx-auto flex flex-row font-avenirHeavy text-black">
+                <button data-what-section="environment" class="why-tab md:text-sm whitespace-nowrap px-10 text-base py-6 tab-toggle-btn md:w-fit bg-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x rounded-hundred text-white" type="button">Environment</button>
+                <button data-what-section="economic" class="why-tab md:text-sm whitespace-nowrap px-10 text-base py-6 tab-toggle-btn md:w-fit text-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x" type="button">Economic</button>
+                <button data-what-section="social" class="why-tab md:text-sm whitespace-nowrap px-10 text-base py-6 tab-toggle-btn md:w-fit text-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x" type="button">Social</button>
+                <button data-what-section="tech_driven" class="why-tab md:text-sm whitespace-nowrap px-10 text-base py-6 tab-toggle-btn md:w-fit text-black hover:rounded-hundred hover:bg-brandGray9x hover:text-brandGray8x" type="button">Tech-driven</button>
             </div>
             <main class="tab-wrap pt-10">
                 <!-- environment section start -->
                 <section class="tab first:flex hidden w-full" id="environment">
                     <div class="bg-brandGray9x rounded-forty w-full space-y-3 pb-20">
-                        <img src="./assets/images/icons/why-shoppers-bag/earth.png" alt="earth" class="max-w-2xl w-eightyPercent mx-auto">
-                        <p class="text-center text-3xl font-avenirRegular px-20">
+                        <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/earth.png" alt="earth" class="max-w-2xl w-eightyPercent mx-auto">
+                        <p class="text-center text-xl md:text-3xl font-avenirRegular px-5 md:px-20">
                             Reducing single-use plastic waste and promoting an environment that is safe from plastic pollution
                         </p>
                     </div>
@@ -334,8 +355,8 @@
                 <!-- economic section start -->
                 <section class="tab first:flex hidden w-full" id="economic">
                     <div class="bg-brandPeach2x rounded-forty w-full space-y-3 pb-20">
-                        <img src="./assets/images/icons/why-shoppers-bag/cash-man.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
-                        <p class="text-center text-3xl font-avenirRegular px-20">
+                        <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/cash-man.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
+                        <p class="text-center text-xl md:text-3xl font-avenirRegular px-5 md:px-20">
                             Improved livelihoods of women and girls through production of ShoppersBag, and participation in the circular economy                        </p>
                     </div>
                 </section>
@@ -344,8 +365,8 @@
                 <!-- social section start -->
                 <section class="tab first:flex hidden w-full" id="social">
                     <div class="bg-white rounded-forty w-full space-y-3 pb-20">
-                        <img src="./assets/images/icons/why-shoppers-bag/shopping-bag-discount.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
-                        <p class="text-center text-3xl font-avenirRegular px-20">
+                        <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/shopping-bag-discount.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
+                        <p class="text-center text-xl md:text-3xl font-avenirRegular px-5 md:px-20">
                             Establishing incentive-based behavioral change for shoppers in reducing the consumption of single-use plastic                    </div>
                 </section>
                 <!-- social section end -->
@@ -353,8 +374,8 @@
                 <!-- tech_driven section start -->
                 <section class="tab first:flex hidden w-full" id="tech_driven">
                     <div class="bg-brandBlue4x rounded-forty w-full space-y-3 pb-20">
-                        <img src="./assets/images/icons/why-shoppers-bag/astronauts.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
-                        <p class="text-center text-3xl font-avenirRegular px-20">
+                        <img loading="lazy" src="./assets/images/icons/why-shoppers-bag/astronauts.png" alt="man and cash" class="max-w-2xl w-eightyPercent mx-auto">
+                        <p class="text-center text-xl md:text-3xl font-avenirRegular px-5 md:px-20">
                             Scalable with technology                    
                     </div>
                 </section>
@@ -362,14 +383,126 @@
             </main>
         </section>
         <div class="absolute w-thirtyFivePercent -left-28 bottom-10">
-            <img src="./assets/images/patterns/HeroSectionLeftShapes.61b72bd3 1.png" alt="">
+            <img loading="lazy" src="./assets/images/patterns/HeroSectionLeftShapes.61b72bd3 1.png" alt="">
+        </div>
+    </section>
+    <section class="px-10 py-20 md:p-20">
+        <main class="relative rounded-hundred bg-brandDarkGreen1x px-24 py-20 h-fit flex flex-col gap-6 text-center">
+            <h1 class="font-milligramBold700 text-white text-3xl md:text-6xl">Want to try <a  href="#" class="text-brandGreen1x underline">ShoppersBag</a>?</h1>
+            <p class="font-avenirLight text-xl md:text-3xl text-white">Now it's <span class="text-brandGreen1x">time</span> to imbibe a <span class="text-brandPurple1x">sustainable</span> lifestyle</p>
+            <div class="flex flex-row items-center gap-5 mx-auto py-3">
+                <a href="#" class="w-20 md:w-40">                
+                    <img loading="lazy" src="./assets/images/icons/social/AppStore.png" alt="app store">
+                </a>
+                <a href="#" class="w-20 md:w-40">                
+                    <img loading="lazy" src="./assets/images/icons/social/GooglePlay-purple.png" alt="app store">
+                </a>
+            </div>
+            <p class="font-avenirLight text-base md:text-xl text-white">You earn rewards whenever you scan QR code to activate your shopping bag</p>
+        </main>
+    </section>
+    <section class="w-full grid grid-rows-2 px-20 divide-y divide-brandGray10x">
+        <div class=" grid grid-cols-3 w-full divide-x divide-brandGray10x">
+            <div class="w-full pl-5 py-20 space-y-2">
+                <p class='font-avenirRegular text-2xl'>Number of</p>
+                <h1 class='font-avenirHeavy text-2xl'>ShoppersBag in Circulation</h1>
+            </div>
+            <div class="w-full pl-5 py-20 space-y-2">
+                <p class='font-avenirRegular text-2xl'>Number of</p>
+                <h1 class='font-avenirHeavy text-2xl'>Partnering Brands</h1>
+            </div>
+            <div class="w-full pl-5 py-20 space-y-2">
+                <p class='font-avenirRegular text-2xl'>Number of</p>
+                <h1 class='font-avenirHeavy text-2xl'>Women and Girls Impacted</h1>
+            </div>
+        </div>
+        <div class="grid grid-cols-3 w-full divide-x divide-brandGray10x">
+            <div class="w-full pl-5 py-20 space-y-2">
+                <p class='font-avenirRegular text-2xl'>Number of</p>
+                <h1 class='font-avenirHeavy text-2xl'>Single-use Plastic Reduction</h1>
+            </div>
+            <div class="w-full pl-5 py-20 space-y-2">
+                <p class='font-avenirRegular text-2xl'>Number of</p>
+                <h1 class='font-avenirHeavy text-2xl'>Eco-friendly Bag Producers</h1>
+            </div>
+            <div class="w-full pl-5 py-20 space-y-2">
+                <p class='font-avenirRegular text-2xl'>Number of</p>
+                <h1 class='font-avenirHeavy text-2xl'>Partnering Brands</h1>
+            </div>
+        </div>
+    </section>
+    <section class="px-10 md:px-20 pt-40 mx-auto w-ninetyPercent lg:w-seventyPercent" >
+        <h1 class="font-avenirHeavy text-center text-2xl md:text-4xl">Frequently Asked Questions</h1>
+        <main class="py-16" id="index_faq_wrap">
+           
+        </main>
+        <div class="w-full text-right">
+            <a href="./faq.html" class="text-brandRed1x text-xl font-avenirHeavy underline text-right w-fit">FIND MORE ANSWERS</a>
         </div>
     </section>
 </main>
+<footer class="px-10 md:px-20 py-16 space-y-16">
+    <section class="rounded-ten md:rounded-eighty flex flex-col lg:flex-row justify-between gap-5 items-center bg-brandBlue1x px-5 md:px-16 py-6">
+        <div>
+            <h1 class="font-avenirMedium text-2xl text-black">Subscribe to our Newsletter</h1>
+        </div>
+        <div class="flex flex-col md:flex-row items-center gap-3">
+            <label for="subscribe_email" class="hidden">Email</label>
+            <input type="email" name="subscribe-email" id="subscribe_email" placeholder="Enter your email" class="w-full md:max-w-410 px-10 py-18px placeholder:font-avenirRegular placeholder:text-xl text-xl text-black placeholder:text-brandGray13x bg-white border border-black rounded-sixty">
+            <button type="submit" class="px-10 py-18px text-xl text-white bg-black hover:shadow-md hover:shadow-gray-700 rounded-sixty">Subscribe</button>
+        </div>
+        </section>
+        <section class="py-20 lg:py-60px px-10 sm:px-20 border flex flex-row flex-wrap items-start justify-start lg:grid grid-cols-12 border-black rounded-ten md:rounded-twoFifty lg:rounded-fiveHundred">
+        <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
+           <h1 class="font-avenirHeavy text-3xl">Company</h1>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">About</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Team</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Impact</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Careers</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Partnerships</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Press</a>
+        </div>
+        <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
+           <h1 class="font-avenirHeavy text-3xl">Legals</h1>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Website T&Cs</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">App Terms & Conditions</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Privacy policy</a>
+           <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Partner Charter</a>
+        </div>
+        <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
+            <h1 class="font-avenirHeavy text-3xl">Resources</h1>
+            <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Blog</a>
+            <a href="#" class="font-avenirRegular text-xl text-black hover:underline">Live chat</a>
+        </div>
+        <div class="flex flex-col space-y-2 col-span-3 px-4 w-full md:w-fiftyPercent lg:w-full pt-10 lg:pt-0">
+            <h1 class="font-avenirHeavy text-3xl">Reach us</h1>
+            <div class="flex flex-row items-center gap-2">
+                <a href="https://www.linkedin.com/company/shopperbagng/">
+                    <img src="./assets/images/icons/social/akar-icons_linkedin-box-fill.png" alt="linkedin" class="w-6 h-6">
+                </a>
+                <a href="https://twitter.com/shoppersbagng?s=11&t=yLO79mofzBfCOcArRX60Ag">
+                    <img src="./assets/images/icons/social/ant-design_twitter-circle-filled.png" alt="twitter" class="w-6 h-6">
+                </a>
+                <a href="https://www.facebook.com/ShoppersbagNG">
+                    <img src="./assets/images/icons/social/akar-icons_facebook-fill.png" alt="facebook" class="w-6 h-6">
+                </a>
+                <a href=" https://instagram.com/shoppersbagnigeria?igshid=YmMyMTA2M2Y=">
+                    <img src="./assets/images/icons/social/ant-design_instagram-filled.png" alt="instagram" class="w-6 h-6">
+                </a>
+            </div>
+            <p class="text-base text-black font-avenirRegular">For grievances, contact
+                <a href="#" class="font-avenirRegular text-base text-brandPurple1x hover:underline">info@wellofscience.com</a>
+            </p>
+        </div>
+        </section>
+</footer>
 
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
     <script src="./assets/js/tabs.js"></script>
     <script src="./assets/js/slides.js"></script>
+    <script src="./assets/js/accordion.js"></script>
+    <script src="./assets/js/nav.js"></script>
+    <script src="./assets/js/text.js"></script>
 </body>
 </html>

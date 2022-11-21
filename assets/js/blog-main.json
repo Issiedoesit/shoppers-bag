@@ -1,0 +1,62 @@
+[
+    {
+        "id": "1",
+        "blogTitle":"Working with",
+        "blogShadowText":"Women",
+        "author":"Guest Writer",
+        "readTime":"2 mins",
+        "snippet":"Eco-Girls support scheme is designed to train, equip and empower girls with practical bag design and making skills using recyclable and biodegradable materials.",
+        "tags":[
+            {
+                "tag":  "News"
+            },
+            {
+                "tag":  "Partner's Story"
+            },
+            {
+                "tag":  "Ads"
+            }
+        ],
+        "url": "#"
+    },
+    {
+        "id": "2",
+        "blogTitle":"Effect of Plastic on",
+        "blogShadowText":"Earth",
+        "author":"Etia",
+        "readTime":"3 mins",
+        "snippet":"Eco-Girls support scheme is designed to train, equip and empower girls with practical bag design and making skills using recyclable and biodegradable materials.",
+        "tags":[
+            {
+                "tag":  "Partner's Story"
+            },
+            {
+                "tag":  "News"
+            },
+            {
+                "tag":  "Ads"
+            }
+        ],
+        "url": "/blog-post.html"
+    },
+    {
+        "id": "3",
+        "blogTitle":"Reduce, Reuse, ",
+        "blogShadowText":"Recycle",
+        "author":"Issie",
+        "readTime":"5 mins",
+        "snippet":"A cleaner earth is the incentive for this new project. Find out new ways to spruce your home and save the earth while you're at it.",
+        "tags":[
+            {
+                "tag":  "DIY"
+            },
+            {
+                "tag":  "News"
+            },
+            {
+                "tag":  "Ads"
+            }
+        ],
+        "url": "#"
+    }
+]

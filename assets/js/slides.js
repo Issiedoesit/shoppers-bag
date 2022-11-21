@@ -27,7 +27,7 @@ $('.slide-btn').each(function(){
         .children('.slide-text')
         for(let i = 0; i < slides.length; i++)
         {
-            slide_text[i].style.backgroundColor = '#E2E2E2'
+            slide_text[i].style.backgroundColor = '#F5F5F5'
             slide_text[i].style.color = '#000000'
         }
         slides[current_text-1].style.display = 'block'; 
@@ -41,14 +41,49 @@ $('.slide-btn').each(function(){
 
 
 
-// $('.slide-wrap').each(function(){
-//     let slide =  $(this).children('img')
-//     for(let i = 0; i < slide.length; i++){
-//         slide[i].style.display = ' none'
-//     }
-//     slide[0].style.display = 'block'
 
-// })
+var x = document.getElementsByClassName("slides-img");
+var dot = document.getElementsByClassName("dots");
+// let slideImg = document.getElementsByClassName('slideimg')
+
+var index = 1;
+myShows(index)
+
+// function myClick(n){
+//    myShows(index += n)
+// }
+
+function myCurrent(n){
+   myShows(index = n)
+}
+
+
+setInterval(() => {
+    index++
+    myShows(index)
+}, 5000);
+
+function myShows(){
+   if (index > (x.length)) {index = 1}
+   if (index < 1) {index = x.length}
+   console.log(index-1)
+   for(let i = 0; i < x.length; i++)
+   {
+    x[i].style.display = 'none'
+   }
+   x[index-1].style.display = 'block';
+   for(let i = 0; i < dot.length; i++)
+   {
+      dot[i].style.backgroundColor = ''
+   }
+   dot[index-1].style.backgroundColor = '#123845'
+   
+   
+}
+
+
+
+
 
 
 

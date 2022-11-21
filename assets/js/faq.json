@@ -1,77 +1,137 @@
 [
     { 
         "id": 1, 
-        "question": "Can I scan QR codes on shopping bags to activate them?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible. <a href='#'>Hello</a>"
+        "question": "What are eco-friendly shopping bags",
+        "answer": "These are shopping bags made from biodegradable and recyclable materials that are reusable and promote environmental sustainability."
     },
     { 
         "id": 2, 
         "question": "What is the ecological advantage of eco-friendly bags over plastic bags?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "answer": "Eco-friendly bags can be reused as many times as possible, and at end-of-life, they can be recycled or composted."
     },
     { 
         "id": 3, 
-        "question": "How do I earn from the ShoppersBag App?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "What materials can be used to produce eco-friendly and reusable shopping bags?",
+        "answer": "Plant fiber materials such as banana, plantain, jute, bamboo, etc., which are reusable, compostable, and recyclable."
     },
     { 
         "id": 4, 
-        "question": "What kind of rewards can I earn with ShoppersBag?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "Does the shopping bag come in different sizes?",
+        "answer": "Yes. Small, Medium and Large."
     },
     { 
         "id": 5, 
-        "question": "Who gives out the rewards I earn from ShoppersBag?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "What is the durability and lifespan of the reusable shopping bag?",
+        "answer": "It is strong and can last between 2-3 years, based on usage rate and maintenance."
     },
     { 
         "id": 6, 
-        "question": "How can I know reusable shopping bags I can scan with ShoppersBag?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "What is the best way to dispose ShoppersBag reusable shopping bag when it's worn out?",
+        "answer": "At the end of life, ShoppersBag reusable bags should be dropped off at designated collection points for recycling."
     },
     { 
         "id": 7, 
-        "question": "Is ShoppersBag available on Apple & Google Play Store?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "What is ShoppersBag?",
+        "answer": "ShoppersBag is a digital technology that drives the reduction in production, usage, and disposal of single-use plastics, working with Eco-friendly Bag Producers, Brands, Stores and Malls to drive sustainability in the retail value chain."
     },
     { 
         "id": 8, 
-        "question": "How does ShoppersBag provide support to women and girls?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "What makes ShoppersBag different?",
+        "answer": "ShoppersBag are marked with a unique tag that has a QR Code and 2D Barcode which tracks and rewards usage in stores and malls. This unique tag enables the integration of eco-friendly shopping bags into the ShoppersBag Distribution System."
     },
     { 
         "id": 9, 
-        "question": "How can I join the empowerment program for women and girls?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "Is ShoppersBag available on Apple & Google Play Store?",
+        "answer": "Yes. ShoppersBag is available and free to download on both Apple and Google Play store."
     },
     { 
         "id": 10, 
-        "question": "What is the entire process of activating shopping bags with ShoppersBag? 2 activations (as a bag user and as a bag producer)",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "How does the QR code work?",
+        "answer": "Users can scan the QR code to activate their shopping bags which will enable them to earn incentives for every usage in stores and malls."
     },
     { 
         "id": 11, 
-        "question": "Do I have to pay to use ShoppersBag App? Brands can give them as gifts and shoppers can buy them.",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "How does the 2D Barcode work?",
+        "answer": "It enables ShoppersBag track and reward  in-store usage of your shopping bag."
     },
     { 
         "id": 12, 
-        "question": "How can I apply for the Naija Zero Plastic Challenge?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "How do I earn from the ShoppersBag App?",
+        "answer": "As you participate in campaigns (in-store or online) on the ShoppersBag app."
     },
     { 
         "id": 13, 
-        "question": "What benefits do brands get from adopting ShoppersBag?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "Who gives out the rewards I earn from ShoppersBag?",
+        "answer": "Partnering brands and stores that are driving reduction in single-use plastics in the retail value chain."
     },
     { 
         "id": 14, 
-        "question": "How can I use ShoppersBag as an eco-friendly bag producer?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "What kind of rewards can I earn with ShoppersBag?",
+        "answer": "Discounts, promos, raffle and gift items."
     },
     { 
         "id": 15, 
-        "question": "What is the signup process for onboarding malls and stores on ShoppersBag?",
-        "answer": "Yes, you can, In fact, it is possible to also scan the QR Code from each shopping back with or without our App, we are that flexible."
+        "question": "How can Eco-friendly Bag Producers work with ShoppersBag?",
+        "answer": "By registering as an eco-friendly bag producer on the ShoppersBag app and purchasing ShoppersBag unique tags for their reusable shopping bags. This will enable your bag to be linked to the ShoppersBag distribution system."
+    },
+    { 
+        "id": 16, 
+        "question": "What is the benefit of ShoppersBag to eco-friendly bag producers?",
+        "answer": "ShoppersBag provides access to market for bag producers to increase their revenue and contribute to environmental sustainability."
+    },
+    { 
+        "id": 17, 
+        "question": "Where can I buy ShoppersBag's reusable shopping bags?",
+        "answer": "You can buy ShoppersBag reusable shopping bags from partnering stores and malls near you or online at: <a href='https://www.shoppersbag.co/nearbystores' class='faq-links underline text-brandBlue1x' style='color:#3992CC;'>www.shoppersbag.co/nearbystores</a>"
+    },
+    { 
+        "id": 18, 
+        "question": "How do I ensure that my reusable shopping bag can earn incentives?",
+        "answer": "By purchasing your reusable shopping bag from partnering stores/outlets."
+    },
+    { 
+        "id": 19, 
+        "question": "Where can I scan my ShoppersBag?",
+        "answer": "At point of sales in designated stores/outlets."
+    },
+    { 
+        "id": 20, 
+        "question": "Can I have more than one ShoppersBag reusable shopping bag?",
+        "answer": "Yes. You can have as many ShoppersBag reusable shopping bags as possible, and they will be linked to your ShoppersBag account."
+    },
+    { 
+        "id": 21, 
+        "question": "Can I use my activated ShoppersBag reusable shopping bag in more than one store?",
+        "answer": "Yes. You can use your ShoppersBag reusable shopping bag in any partnering store"
+    },
+    { 
+        "id": 22, 
+        "question": "How can  partnering brands launch a campaign on ShoppersBag app?",
+        "answer": "<a href='https://www.shoppersbag.co/how-brands-can-launch-campaign-on-shoppersbag-app' class='underline text-brandBlue1x' style='color:#3992CC;'>www.shoppersbag.co/how-brands-can-launch-campaign-on-shoppersbag-app</a>"
+    },
+    { 
+        "id": 23, 
+        "question": "What will stores require to track reusable shopping bag usage?",
+        "answer": "A 2D barcode scanner that is connected with a smart device"
+    },
+    { 
+        "id": 24, 
+        "question": "What is ShoppersBag reusable shopping bag suitable for?",
+        "answer": "ShoppersBag reusable shopping bags are suitable for shopping, corporate gifts, packaging etc."
+    },
+    { 
+        "id": 25, 
+        "question": "Do I have to pay to use ShoppersBag reusable shopping bags?",
+        "answer": "Brands can give them as gifts to their customers, and shoppers can also buy them."
+    },
+    { 
+        "id": 26, 
+        "question": "How does ShoppersBag provide support to women and girls?",
+        "answer": "Through the <a href='#' class='faq-links underline text-brandBlue1x' style='color:#3992CC;'>HerFibre</a> and <a href='#' class='faq-links underline text-brandBlue1x' style='color:#3992CC;'>Eco-Girls</a> Support Scheme"
+    },
+    { 
+        "id": 27, 
+        "question": "What benefits do brands get from partnering with ShoppersBag?",
+        "answer": "They earn sustainability badge by contributing to the reduction and elimination of single-use plastic waste pollution in the retail value chain  and support the empowerment of women and girls in eco-friendly bag production."
     }
   ]

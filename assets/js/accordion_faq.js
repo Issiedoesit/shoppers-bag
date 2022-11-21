@@ -19,6 +19,20 @@ let accordion_control = () => $('.accordion-btn').each(function(){
 })
 
 accordion_control()
+// let link = 'http://127.0.0.1:5500/www.shoppersbag.co/nearbystores'
+// let origin = location.origin
+// // alert(origin)
+    
+// let link_stripper = () => $('.faq-links').each(function(){
+//     $(this).on('click', function(){
+//         let link_with_origin = $(this).attr('href')
+//         let stripped_link = link_with_origin.replaceAll(origin+'/', "")
+//         console.log(stripped_link)
+//         $(this).attr('href', stripped_link)
+//     })
+// })
+
+// ensure external links have "https://" in front of them
 
 let faqPath ='assets/js/faq.json'
 
